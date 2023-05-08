@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    font-family: Roboto;
+}
+
+
+.container{
+    padding-top:30px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 0 auto;
+
+}
+.header{
+    background-color:white;
+    height:60px;
+    width:100%;
+    margin: auto;
+    display: flexbox;
+}
+
+#html5{
+    float:left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px; 
+    height:30px;
+    width:30px;
+    
+}
+
+h3{
+    margin-bot:10px;
+    font-size: 14px;
+    color:black;
+    position:relative;
+    top: 20px;px;
+
+    
+    
+}
+.p-header{
+    margin: top 34px;
+    display: inline;
+    position:absolute;
+ 
+
+        
+}
+
+#puntos{
+   margin-top:15px;
+    margin-right: 15px;
+    height:30px;
+    width:10px;
+    float:right
+}
+
+
+
+#campo{
+    height:300px;
+    width: 100%;
+    align-items: center;
+    object-fit:fill;
+    border-style:none;
+}
+
+.footer1{
+    margin-top: -4px;
+    background-color:white;
+    height:60px;
+    width:100%;
+    display:inline-block;
+    
+}
+
+#corazon{
+    margin-left:10px;
+    margin-top: 10px;
+    height:30px;
+    width:30px;
+}
+
+#bubble{
+    margin-top: 10px;
+    margin-left:20px;
+    height:30px;
+    width:30px;
+}
+
+#compartir{
+    margin-left:20px;
+    margin-top: 15px;
+    height:30px;
+    width:30px;
+}
+#guardar{
+      margin-top: 15px;
+      margin-right:10px;
+        height:30px;
+        width:30px;
+        float:right;
+    }
+
+.footer2{
+
+    background-color: white;
+    height: 180px;
+    width:450px;
+}
+
+.footer2 p{
+    margin-left:15px;
+    margin-right:15px;
+    text-justify:distribute-all-lines
+
+}
