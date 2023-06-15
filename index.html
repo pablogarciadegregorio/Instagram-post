@@ -7,9 +7,13 @@
     <title>Fake Instagram</title>
    </head>
    <body class="bg-dark">
-    <main class="main__post container d-flex m-auto">
-        <header class="header h-100  bg-white pt-2 pb-2">
-            <img id="html5" src="https://cdn-icons-png.flaticon.com/512/152/152843.png">
+    <main class="post container d-flex m-auto">
+        <!-- aqui tenías la clase "main__post" la etiqueta ya es "main" lo que vamos a hacer es decirle con la clase que este main es un post, no hace falta repetir el main -->
+        <!-- haciendo eso, puedo usar una metodologia de nominacion para las siguientes partes de mi elemento, como por ejemplo en el header => post__header y una vez dentro de este => post__header_icon -->
+        <!-- dejaré las lineas 14 y 16 con un ejemplo -->
+        <header class="post__header h-100  bg-white pt-2 pb-2"> 
+            <!-- faltaría dividir en <section> las partes del header -->
+            <img class="post__header_img" id="html5" src="https://cdn-icons-png.flaticon.com/512/152/152843.png">
             <img id="puntos" src="https://www.pngkit.com/png/detail/150-1509470_circles-3-dots-menu-icon.png">
             <p class="p-header"><strong>HTML5</strong></p>
             
@@ -19,8 +23,14 @@
             
           
         </header>
-
-        <section class="justify-content-center">
+        <!-- esto realmente debería ser un <figure> que contuviese la imagen -->
+        <!-- voy a escribir aqui el <figure> para que veas a lo que me refiero -->
+        <!-- <figure class="post__figure">
+                <section class="post__figure_section">
+                    <img class="post__figure_img" alt="">
+                </section>
+             </figure> -->
+            <section class="justify-content-center">
             <img class="photo" src="https://cdn.shopify.com/s/files/1/0285/1316/products/w0466_1s_Flowers-_-Skulls-Wallpaper-for-Walls-Buried-Treasure_Repeating-Pattern-Sample-1_6d17f52a-98b6-479d-a813-2a7623cc5350.jpg?v=1604084043">
             <div class=" CTA bg-white p-3">
                 <img class="me-4" id="corazon"src="https://i.pinimg.com/originals/50/9e/af/509eaf4abcbd88d8e1fc4a9734cd9e2e.png">
@@ -31,7 +41,7 @@
             </div>
         
         </section> 
-
+        <!-- después del figure tendríamos un <article> dividido en <section> -->
         <footer class="bg-white p-3">
             <p>Liked by <strong>4GeeksAcademy</strong>, <strong>html5</strong>, <strong>Web</strong> and <strong>100,000 others</strong></p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos accusamus numquam pariatur voluptates, nobis, modi, corporis ea quisquam velit perspiciatis porro iusto voluptatum molestias tempore error architecto in nemo excepturi.</p>
